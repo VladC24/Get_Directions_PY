@@ -16,14 +16,14 @@ def get_directions(arguments):
     for destination in destinations:
       final_url += str(destination + "/")
 
-    webbrowser.get('chrome').open_new_tab(final_url)
+    webbrowser.open_new_tab(final_url)
 
-    else:
-      error_message = "Error: Number of locations should be greater than 1 and less than 11"
-      print(error_message)
+  else:
+    error_message = "Error: Number of locations should be greater than 1 and less than 11"
+    print(error_message)
 
-      return error_message
+    return error_message
 
-    return final_url
+  return final_url
 
 get_directions(arguments)
