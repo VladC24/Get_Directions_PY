@@ -3,11 +3,14 @@
 A simple app built in Python, tested with UnitTest.
 
 ## Instructions 
-```
-$  python get_directions.py <from> <to>
-```
-Values given as an example, however feel free to replace the values with your own:
 
-* <from> is the *_location_* - can be a UK postcode 
-* <to> is the *_destination_* - can be a string, ex: "Bond Street"
+1. Clone the repo
+2. Open the terminal, go to the cloned directory and type in the below command:
+```
+$  python get_directions.py W1D3QN "Bond Street"
+```
+The values are given as an example, however feel free to replace them with your own:
+
+*  W1D3QN is a UK postcode - it represents the *_initial location_* - can be a string or a postcode
+* "Bond Street" is the name of a street, which is the *_destination_* - can be a string or a postcode
 
